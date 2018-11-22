@@ -1,2 +1,2 @@
 # PictureLoader
-网络请求框架
+图片加载框架
