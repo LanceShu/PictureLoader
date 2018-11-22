@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="pictureloader_uri" type="id">picture_loader</item>
+</resources>
