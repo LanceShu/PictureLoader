@@ -239,7 +239,7 @@ public class PictureLoader {
      * @param reqHeight
      * @return Bitmap
      * */
-    private Bitmap loadBitmap(String uri, int reqWidth, int reqHeight) throws IOException {
+    public Bitmap loadBitmap(String uri, int reqWidth, int reqHeight) throws IOException {
         Bitmap bitmap = loadBitmapFromMemoryCache(uri);
         if (bitmap != null) {
             return bitmap;

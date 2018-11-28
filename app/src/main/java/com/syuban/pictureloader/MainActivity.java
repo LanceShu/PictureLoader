@@ -12,6 +12,6 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         imageView = findViewById(R.id.image_view);
-        PictureLoader.build(this).setBitmap("https://www.baidu.com/img/bd_logo1.png", imageView);
+        PictureLoader.build(this).setBitmap("https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_120x44dp.png", imageView);
     }
 }
